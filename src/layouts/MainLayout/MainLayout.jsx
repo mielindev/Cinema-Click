@@ -1,11 +1,12 @@
 import React from "react";
+import Header from "../../components/Header/Header";
 import { Outlet } from "react-router";
 
-export default function MainLayout({ children }) {
+export default function MainLayout({ chilren }) {
   return (
     <div>
-      MainLayout
-      {children}
+      <Header />
+      {chilren}
       <Outlet />
     </div>
   );
