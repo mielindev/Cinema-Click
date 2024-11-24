@@ -8,4 +8,4 @@ const fetcher = axios.create({
   },
 });
 
-export default { fetcher };
+export default fetcher;
