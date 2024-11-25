@@ -37,7 +37,7 @@ export default function HomePage() {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    sx={{ height: 500 }}
+                    sx={{ height: 400, objectFit: "fill" }}
                     image={item.hinhAnh}
                   />
                   <CardContent>
